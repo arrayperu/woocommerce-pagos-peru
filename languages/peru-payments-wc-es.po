@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Peru Payments WooCommerce\n"
+"POT-Creation-Date: 2021-09-30 17:58-0500\n"
+"PO-Revision-Date: 2021-09-30 17:58-0500\n"
+"Last-Translator: \n"
+"Language-Team: Array Perú\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: peru-payments.class.php:45
+#, php-format
+msgid ""
+"The %2$sPeru Payments for WooCommerce%3$s plugin requires %2$sPHP 5.4+%3$s "
+"and %2$sWordPress 5.5%3$s to run properly. Your current version of PHP is "
+"%2$s%1$s%3$s, and version of WP is %2$s%4$s%3$s"
+msgstr ""
+"El plugin %2$sPeru Payments for WooCommerce%3$s requiere %2$sPHP 5.4+%3$s y "
+"%2$sWordPress 5.5%3$s para su correcto funcionamiento. Tu versión actual de "
+"PHP es %2$s%1$s%3$s, and la versión de WordPress es %2$s%4$s%3$s"
+
+#: woocommerce-pagos-peru.php:229
+msgid "Title"
+msgstr "Titulo"
+
+#: woocommerce-pagos-peru.php:231
+msgid "This is the title of the payment method on the customer checkout"
+msgstr "Este es el título para el método de pago durante el proceso de compra"
+
+#: woocommerce-pagos-peru.php:236
+msgid "Name"
+msgstr "Nombre"
+
+#: woocommerce-pagos-peru.php:239
+#, php-format
+msgid "Name of the %1$s account holder"
+msgstr "Nombre del titular de la cuenta %1$s"
+
+#: woocommerce-pagos-peru.php:246
+msgid "Phone"
+msgstr "Celular"
+
+#: woocommerce-pagos-peru.php:249
+#, php-format
+msgid "This is the phone number associated to %1$s account"
+msgstr "Número de teléfono asociado a la cuenta %1$s donde recibir los pagos"
+
+#: woocommerce-pagos-peru.php:256
+msgid "Instructions"
+msgstr "Descripción"
+
+#: woocommerce-pagos-peru.php:258
+msgid "A short instruction to show at the bottom of the QR code"
+msgstr "Una pequeña instrucción para mostrar debajo del código QR"
+
+#: woocommerce-pagos-peru.php:263
+msgid "Info"
+msgstr "Información"
+
+#: woocommerce-pagos-peru.php:265 woocommerce-pagos-peru.php:272
+msgid "A short instruction to show in order detail"
+msgstr "Una pequeña instrucción para mostrar en el pago"
+
+#: woocommerce-pagos-peru.php:270
+msgid "Info Detail"
+msgstr "Detalle Pago"
+
+#: woocommerce-pagos-peru.php:277
+msgid "Message when making the payment"
+msgstr "Mensaje después de realizar el pago"
+
+#: woocommerce-pagos-peru.php:284
+msgid "Upload QR Code"
+msgstr "Cargar código QR"
+
+#: woocommerce-pagos-peru.php:286
+msgid "Upload the QR of your business here (must be in .jpg or .png image)"
+msgstr "Carga el código QR aquí (debe ser en formato de imagen .jpg o .png)"
+
+#: woocommerce-pagos-peru.php:290
+msgid "Capture required"
+msgstr "Solicitar Captura"
+
+#: woocommerce-pagos-peru.php:291
+msgid "Transaction screenshot required"
+msgstr "Captura de pantalla obligatoria"
+
+#: woocommerce-pagos-peru.php:293
+msgid "Check this if you want the screenshot required on the checkout process"
+msgstr ""
+"Selecciona esta opción si quieres solicitar de forma obligatoria el capture "
+"de la transacción"
+
+#: woocommerce-pagos-peru.php:297
+msgid "Only upload the QR image, minimun dimension 200 x 200"
+msgstr "Solo carga el código QR, con un tamaño mínimo de 200 x 200"
+
+#: woocommerce-pagos-peru.php:325
+msgid "Error: Please fill the payment title"
+msgstr "Error: por favor ingresa el título del pago"
+
+#: woocommerce-pagos-peru.php:330
+msgid "Error: Please fill the payment instructions"
+msgstr "Error: por favor ingresa alguna instrucción referente al pago"
+
+#: woocommerce-pagos-peru.php:335
+msgid "Error: Please fill the payment phone"
+msgstr "Error: por favor ingresa el número para procesar los pagos"
+
+#: woocommerce-pagos-peru.php:343
+msgid "No QR code submitted, the previous one will be used"
+msgstr "No se ha actualizado el código QR, utilizando el anterior"
+
+#: woocommerce-pagos-peru.php:345
+msgid "Error: Please add some QR code image"
+msgstr "Error: por favor agrega un código QR"
+
+#: woocommerce-pagos-peru.php:392
+#, php-format
+msgid "%1$s%5$s%8$s Capture:%6$s%7$s%3$sview image%4$s %2$s"
+msgstr "%1$s%5$sCaptura %8$s:%6$s%7$s%3$sver imagen%4$s %2$s"
+
+#: woocommerce-pagos-peru.php:410
+#, php-format
+msgid "%1$s%5$s%7$s Capture:%6$s%7$s%3$sview image%4$s %2$s"
+msgstr "%1$s%5$sCaptura %7$s:%6$s%7$s%3$sver imagen%4$s %2$s"
+
+#: woocommerce-pagos-peru.php:473
+#, php-format
+msgid "Upload your payment capture %1$s"
+msgstr "Subir captura de pago de %1$s"
+
+#: woocommerce-pagos-peru.php:526
+msgid "Thanks for your order, we will shortly validate it"
+msgstr "Gracias por tu orden, en breve la validaremos"
+
+#: woocommerce-pagos-peru.php:543
+#, php-format
+msgid "You must upload the %1$s transaction capture"
+msgstr "Debe adjuntar la captura de la transacción de %1$s"
+
+#~ msgid "Pay using YAPE"
+#~ msgstr "Pagar usando YAPE"
+
+#~ msgid "Awaiting YAPE payment validation"
+#~ msgstr "En espera por validación de pago YAPE"
+
+#, php-format
+#~ msgid "Transaction number: %s"
+#~ msgstr "Nro. de Transacción: %s"
+
+#~ msgid "Upload YAPE QR Code"
+#~ msgstr "Subir código QR de YAPE"
